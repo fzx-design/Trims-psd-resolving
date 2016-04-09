@@ -1,0 +1,1700 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', 'opencv' ]
+2 info using npm@2.13.3
+3 info using node@v0.12.2
+4 verbose install initial load of /WorkSpace/psd.js-master/package.json
+5 warn package.json psd@3.1.0 No license field.
+6 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/bluebird/package.json
+7 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/browserify/package.json
+8 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/canvas/package.json
+9 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/coffee-script/package.json
+10 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/coffeeify/package.json
+11 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/coffeescript-module/package.json
+12 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/docco-husky/package.json
+13 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/iconv-lite/package.json
+14 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/jspack/package.json
+15 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/lodash/package.json
+16 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/mocha/package.json
+17 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/parse-engine-data/package.json
+18 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/pixi/package.json
+19 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/pixi.js/package.json
+20 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/pngjs/package.json
+21 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/rimraf/package.json
+22 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/rsvp/package.json
+23 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/should/package.json
+24 verbose installManyTop reading scoped package data from /WorkSpace/psd.js-master/node_modules/uglify-js/package.json
+25 info package.json pngjs@0.4.0 No repository field.
+26 info package.json pngjs@0.4.0 No license field.
+27 info package.json uglify-js@2.4.24 license should be a valid SPDX license expression
+28 info package.json coffeescript-module@0.2.1 No license field.
+29 info package.json docco-husky@0.3.3 No license field.
+30 info package.json mocha@1.18.2 No license field.
+31 info package.json rimraf@2.2.8 license should be a valid SPDX license expression
+32 info package.json jspack@0.0.4 No license field.
+33 info package.json should@3.3.2 No license field.
+34 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/package.json
+35 silly cache add args [ 'opencv', null ]
+36 verbose cache add spec opencv
+37 silly cache add parsed spec { raw: 'opencv',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'opencv',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: '*',
+37 silly cache add   type: 'range' }
+38 silly addNamed opencv@*
+39 verbose addNamed "*" is a valid semver range for opencv
+40 silly addNameRange { name: 'opencv', range: '*', hasData: false }
+41 silly mapToRegistry name opencv
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry http://registry.cnpmjs.org/
+44 silly mapToRegistry uri http://registry.cnpmjs.org/opencv
+45 verbose addNameRange registry:http://registry.cnpmjs.org/opencv not in flight; fetching
+46 verbose request uri http://registry.cnpmjs.org/opencv
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 16:38:34
+49 verbose request id 3fb91d4965ed77ed
+50 http request GET http://registry.cnpmjs.org/opencv
+51 http 200 http://registry.cnpmjs.org/opencv
+52 silly get cb [ 200,
+52 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+52 silly get     date: 'Thu, 27 Aug 2015 08:38:35 GMT',
+52 silly get     'content-type': 'application/json; charset=utf-8',
+52 silly get     'transfer-encoding': 'chunked',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-readtime': '16',
+52 silly get     'content-encoding': 'gzip' } ]
+53 verbose get saving opencv to /Users/xyz/.npm/registry.cnpmjs.org/opencv/.cache.json
+54 silly addNameRange number 2 { name: 'opencv', range: '*', hasData: true }
+55 silly addNameRange versions [ 'opencv',
+55 silly addNameRange   [ '3.0.0',
+55 silly addNameRange     '2.0.0',
+55 silly addNameRange     '1.0.0',
+55 silly addNameRange     '0.7.0',
+55 silly addNameRange     '0.6.0',
+55 silly addNameRange     '0.5.0',
+55 silly addNameRange     '0.4.0',
+55 silly addNameRange     '0.3.1',
+55 silly addNameRange     '0.3.0',
+55 silly addNameRange     '0.2.0',
+55 silly addNameRange     '0.1.0',
+55 silly addNameRange     '0.0.12',
+55 silly addNameRange     '0.0.11',
+55 silly addNameRange     '0.0.10',
+55 silly addNameRange     '0.0.9',
+55 silly addNameRange     '0.0.8',
+55 silly addNameRange     '0.0.7',
+55 silly addNameRange     '0.0.6',
+55 silly addNameRange     '0.0.5',
+55 silly addNameRange     '0.0.4',
+55 silly addNameRange     '0.0.3',
+55 silly addNameRange     '0.0.2',
+55 silly addNameRange     '0.0.1' ] ]
+56 silly addNamed opencv@3.0.0
+57 verbose addNamed "3.0.0" is a plain semver version for opencv
+58 silly mapToRegistry name opencv
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry http://registry.cnpmjs.org/
+61 silly mapToRegistry uri http://registry.cnpmjs.org/opencv
+62 verbose addRemoteTarball http://registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz not in flight; adding
+63 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz',
+63 verbose addRemoteTarball   '4309466654706bc23635ca48d17e49216c484294' ]
+64 info retry fetch attempt 1 at 16:38:36
+65 info attempt registry request try #1 at 16:38:36
+66 http fetch GET http://registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz
+67 http fetch 200 http://registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz
+68 silly fetchAndShaCheck shasum 4309466654706bc23635ca48d17e49216c484294
+69 verbose addTmpTarball /var/folders/ks/r21_2nxj32l8w0rxtl16758r0000gn/T/npm-65027-886d5c33/registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz not in flight; adding
+70 verbose addTmpTarball already have metadata; skipping unpack for opencv@3.0.0
+71 silly cache afterAdd opencv@3.0.0
+72 verbose afterAdd /Users/xyz/.npm/opencv/3.0.0/package/package.json not in flight; writing
+73 verbose afterAdd /Users/xyz/.npm/opencv/3.0.0/package/package.json written
+74 silly install resolved [ { name: 'opencv',
+74 silly install resolved     description: 'Node Bindings to OpenCV',
+74 silly install resolved     author: { name: 'Peter Braden', email: 'peterbraden@peterbraden.co.uk' },
+74 silly install resolved     dependencies: { 'node-pre-gyp': '0.5.31', buffers: '0.1.1', nan: '1.4.3' },
+74 silly install resolved     version: '3.0.0',
+74 silly install resolved     devDependencies:
+74 silly install resolved      { tape: '^3.0.0',
+74 silly install resolved        'aws-sdk': '~2.0.21',
+74 silly install resolved        glob: '^4.0.6',
+74 silly install resolved        request: '^2.45.0' },
+74 silly install resolved     license: 'MIT',
+74 silly install resolved     scripts:
+74 silly install resolved      { build: 'node-gyp build',
+74 silly install resolved        test: 'node test/unit.js',
+74 silly install resolved        install: 'node-pre-gyp install --fallback-to-build' },
+74 silly install resolved     keywords: [ 'opencv', 'computer', 'vision', 'quadrocopter' ],
+74 silly install resolved     main: './lib/opencv',
+74 silly install resolved     repository:
+74 silly install resolved      { type: 'git',
+74 silly install resolved        url: 'https://github.com/peterbraden/node-opencv.git' },
+74 silly install resolved     engines: { node: '>=0.10' },
+74 silly install resolved     binary:
+74 silly install resolved      { module_name: 'opencv',
+74 silly install resolved        module_path: './build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}/',
+74 silly install resolved        remote_path: './{module_name}/v{version}/{configuration}/',
+74 silly install resolved        package_name: '{node_abi}-{platform}-{arch}.tar.gz',
+74 silly install resolved        host: 'https://node-opencv.s3.amazonaws.com' },
+74 silly install resolved     gitHead: 'e7604cda59328f67b6b4eb5f5966c080680ad190',
+74 silly install resolved     bugs: { url: 'https://github.com/peterbraden/node-opencv/issues' },
+74 silly install resolved     homepage: 'https://github.com/peterbraden/node-opencv',
+74 silly install resolved     bundleDependencies: [ 'node-pre-gyp' ],
+74 silly install resolved     _id: 'opencv@3.0.0',
+74 silly install resolved     _shasum: '4309466654706bc23635ca48d17e49216c484294',
+74 silly install resolved     _from: 'opencv@*',
+74 silly install resolved     _npmVersion: '2.3.0',
+74 silly install resolved     _nodeVersion: '0.11.16',
+74 silly install resolved     _npmUser: { name: 'peterbraden', email: 'peterbraden@peterbraden.co.uk' },
+74 silly install resolved     maintainers: [ [Object] ],
+74 silly install resolved     dist:
+74 silly install resolved      { shasum: '4309466654706bc23635ca48d17e49216c484294',
+74 silly install resolved        size: 5575602,
+74 silly install resolved        noattachment: false,
+74 silly install resolved        tarball: 'http://registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz' },
+74 silly install resolved     directories: {},
+74 silly install resolved     publish_time: 1423687989964,
+74 silly install resolved     _cnpm_publish_time: 1423687989964,
+74 silly install resolved     _resolved: 'http://registry.cnpmjs.org/opencv/download/opencv-3.0.0.tgz' } ]
+75 info install opencv@3.0.0 into /WorkSpace/psd.js-master
+76 info installOne opencv@3.0.0
+77 verbose installOne of opencv to /WorkSpace/psd.js-master not in flight; installing
+78 verbose lock using /Users/xyz/.npm/_locks/opencv-3443cc2e8773acb8.lock for /WorkSpace/psd.js-master/node_modules/opencv
+79 silly install write writing opencv 3.0.0 to /WorkSpace/psd.js-master/node_modules/opencv
+80 verbose unbuild node_modules/opencv
+81 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv is being purged from base /WorkSpace/psd.js-master
+82 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv
+83 verbose tar unpack /Users/xyz/.npm/opencv/3.0.0/package.tgz
+84 verbose tar unpacking to /WorkSpace/psd.js-master/node_modules/opencv
+85 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv is being purged
+86 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv
+87 silly gunzTarPerm modes [ '755', '644' ]
+88 silly gunzTarPerm extractEntry package.json
+89 silly gunzTarPerm extractEntry .npmignore
+90 silly gunzTarPerm extractEntry README.md
+91 silly gunzTarPerm extractEntry .Makefile.un~
+92 silly gunzTarPerm extractEntry .README.md.un~
+93 silly gunzTarPerm extractEntry .appveyor.yml.un~
+94 silly gunzTarPerm extractEntry .binding.gyp.un~
+95 silly gunzTarPerm extractEntry ..gitignore.un~
+96 silly gunzTarPerm extractEntry .package.json.un~
+97 silly gunzTarPerm extractEntry .travis.yml
+98 silly gunzTarPerm extractEntry CHANGELOG.md
+99 silly gunzTarPerm extractEntry Dockerfile
+100 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+101 silly gunzTarPerm extractEntry Makefile
+102 silly gunzTarPerm extractEntry ..travis.yml.un~
+103 silly gunzTarPerm extractEntry appveyor.yml
+104 silly gunzTarPerm extractEntry binding.gyp
+105 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_small.xml
+106 silly gunzTarPerm extractEntry data/.hogcascade_cars_sideview.xml.un~
+107 silly gunzTarPerm extractEntry data/haarcascade_eye_tree_eyeglasses.xml
+108 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt.xml
+109 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt2.xml
+110 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt_tree.xml
+111 silly gunzTarPerm extractEntry data/haarcascade_frontalface_default.xml
+112 silly gunzTarPerm extractEntry data/haarcascade_fullbody.xml
+113 silly gunzTarPerm extractEntry data/haarcascade_lefteye_2splits.xml
+114 silly gunzTarPerm extractEntry data/haarcascade_lowerbody.xml
+115 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_big.xml
+116 silly gunzTarPerm extractEntry data/haarcascade_eye.xml
+117 silly gunzTarPerm extractEntry data/haarcascade_mcs_lefteye.xml
+118 silly gunzTarPerm extractEntry data/haarcascade_mcs_mouth.xml
+119 silly gunzTarPerm extractEntry data/haarcascade_mcs_nose.xml
+120 silly gunzTarPerm extractEntry data/haarcascade_mcs_righteye.xml
+121 silly gunzTarPerm extractEntry data/haarcascade_mcs_upperbody.xml
+122 silly gunzTarPerm extractEntry data/haarcascade_profileface.xml
+123 silly gunzTarPerm extractEntry data/haarcascade_righteye_2splits.xml
+124 silly gunzTarPerm extractEntry data/haarcascade_upperbody.xml
+125 silly gunzTarPerm extractEntry data/hogcascade_cars_sideview.xml
+126 silly gunzTarPerm extractEntry data/lbpcascade_cars_frontbackview.xml
+127 silly gunzTarPerm extractEntry examples/warp-image.js
+128 silly gunzTarPerm extractEntry examples/quad-crosses.js
+129 silly gunzTarPerm extractEntry examples/motion-track.js
+130 silly gunzTarPerm extractEntry examples/face-proxy.js
+131 silly gunzTarPerm extractEntry examples/face-detection.js
+132 silly gunzTarPerm extractEntry examples/salt.js
+133 silly gunzTarPerm extractEntry examples/detect-shapes.js
+134 silly gunzTarPerm extractEntry examples/convert-image.js
+135 silly gunzTarPerm extractEntry examples/contours.js
+136 silly gunzTarPerm extractEntry examples/color-filter.js
+137 silly gunzTarPerm extractEntry examples/camera.js
+138 silly gunzTarPerm extractEntry examples/take-face-pics.js
+139 silly gunzTarPerm extractEntry examples/addweighted.js
+140 silly gunzTarPerm extractEntry examples/face-detection-rectangle.js
+141 silly gunzTarPerm extractEntry examples/car-detection.js
+142 silly gunzTarPerm extractEntry examples/.detect-shapes.js.un~
+143 silly gunzTarPerm extractEntry examples/.warp-image.js.un~
+144 silly gunzTarPerm extractEntry examples/.camera.js.un~
+145 silly gunzTarPerm extractEntry examples/coffeescript/camera.coffee
+146 silly gunzTarPerm extractEntry examples/coffeescript/blend-images.coffee
+147 silly gunzTarPerm extractEntry examples/coffeescript/camera-face-detection.coffee
+148 silly gunzTarPerm extractEntry examples/coffeescript/camera-gausian-effect.coffee
+149 silly gunzTarPerm extractEntry examples/coffeescript/camera-gaussian-effect.coffee
+150 silly gunzTarPerm extractEntry examples/coffeescript/camera-face-detect-max-frames.coffee
+151 silly gunzTarPerm extractEntry examples/coffeescript/haarcascades/haarcascade_frontalface_alt.xml
+152 silly gunzTarPerm extractEntry examples/coffeescript/image-basic-shapes.coffee
+153 silly gunzTarPerm extractEntry examples/coffeescript/image-load-display.coffee
+154 silly gunzTarPerm extractEntry examples/coffeescript/image-load-modify-display.coffee
+155 silly gunzTarPerm extractEntry examples/coffeescript/images/linux-logo.png
+156 silly gunzTarPerm extractEntry examples/coffeescript/images/mona.png
+157 silly gunzTarPerm extractEntry examples/coffeescript/images/windows-logo.png
+158 silly gunzTarPerm extractEntry examples/.salt.js.un~
+159 silly gunzTarPerm extractEntry examples/.quad-crosses.js.un~
+160 silly gunzTarPerm extractEntry examples/.face-proxy.js.un~
+161 silly gunzTarPerm extractEntry examples/.face-detection.js.un~
+162 silly gunzTarPerm extractEntry examples/.face-detection-rectangle.js.un~
+163 silly gunzTarPerm extractEntry examples/.take-face-pics.js.un~
+164 silly gunzTarPerm extractEntry examples/.convert_image.js.un~
+165 silly gunzTarPerm extractEntry examples/files/car1.jpg
+166 silly gunzTarPerm extractEntry examples/files/car2.jpg
+167 silly gunzTarPerm extractEntry examples/files/coin1.jpg
+168 silly gunzTarPerm extractEntry examples/files/coin2.jpg
+169 silly gunzTarPerm extractEntry examples/files/mona.png
+170 silly gunzTarPerm extractEntry examples/files/motion.mov
+171 silly gunzTarPerm extractEntry examples/files/over_text.png
+172 silly gunzTarPerm extractEntry examples/files/quads.jpg
+173 silly gunzTarPerm extractEntry examples/files/shapes.jpg
+174 silly gunzTarPerm extractEntry examples/files/stuff.png
+175 silly gunzTarPerm extractEntry examples/make-example-files.sh
+176 silly gunzTarPerm extractEntry examples/.convert-image.js.un~
+177 silly gunzTarPerm extractEntry examples/.contours.js.un~
+178 silly gunzTarPerm extractEntry examples/.color-filter.js.un~
+179 silly gunzTarPerm extractEntry examples/.car-detection.js.un~
+180 silly gunzTarPerm extractEntry examples/.addweighted.js.un~
+181 silly gunzTarPerm extractEntry index.html
+182 silly gunzTarPerm extractEntry lib/bindings.js
+183 silly gunzTarPerm extractEntry lib/opencv.js
+184 silly gunzTarPerm extractEntry lib/.bindings.js.un~
+185 silly gunzTarPerm extractEntry lib/.opencv.js.un~
+186 silly gunzTarPerm extractEntry test/examples.js
+187 silly gunzTarPerm extractEntry test/unit.js
+188 silly gunzTarPerm extractEntry test/.examples.js.un~
+189 silly gunzTarPerm extractEntry test/.unit.js.un~
+190 silly gunzTarPerm extractEntry .CHANGELOG.md.un~
+191 silly gunzTarPerm extractEntry publish-binaries.md
+192 silly gunzTarPerm extractEntry smoke/smoketest.js
+193 silly gunzTarPerm extractEntry src/Constants.h
+194 silly gunzTarPerm extractEntry src/.BackgroundSubtractor.cc.un~
+195 silly gunzTarPerm extractEntry src/.Contours.cc.un~
+196 silly gunzTarPerm extractEntry src/.Contours.h.un~
+197 silly gunzTarPerm extractEntry src/.HighGUI.cc.un~
+198 silly gunzTarPerm extractEntry src/.Matrix.cc.un~
+199 silly gunzTarPerm extractEntry src/.Matrix.h.un~
+200 silly gunzTarPerm extractEntry src/.OpenCV.cc.un~
+201 silly gunzTarPerm extractEntry src/.VideoCaptureWrap.cc.un~
+202 silly gunzTarPerm extractEntry src/BackgroundSubtractor.cc
+203 silly gunzTarPerm extractEntry src/BackgroundSubtractor.h
+204 silly gunzTarPerm extractEntry src/Calib3D.cc
+205 silly gunzTarPerm extractEntry src/Calib3D.h
+206 silly gunzTarPerm extractEntry src/CamShift.cc
+207 silly gunzTarPerm extractEntry src/CamShift.h
+208 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.cc
+209 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.h
+210 silly gunzTarPerm extractEntry src/Constants.cc
+211 silly gunzTarPerm extractEntry src/.CascadeClassifierWrap.cc.un~
+212 silly gunzTarPerm extractEntry src/Contours.cc
+213 silly gunzTarPerm extractEntry src/Contours.h
+214 silly gunzTarPerm extractEntry src/FaceRecognizer.cc
+215 silly gunzTarPerm extractEntry src/FaceRecognizer.h
+216 silly gunzTarPerm extractEntry src/HighGUI.cc
+217 silly gunzTarPerm extractEntry src/HighGUI.h
+218 silly gunzTarPerm extractEntry src/ImgProc.cc
+219 silly gunzTarPerm extractEntry src/ImgProc.h
+220 silly gunzTarPerm extractEntry src/Matrix.cc
+221 silly gunzTarPerm extractEntry src/Matrix.h
+222 silly gunzTarPerm extractEntry src/OpenCV.cc
+223 silly gunzTarPerm extractEntry src/OpenCV.h
+224 silly gunzTarPerm extractEntry src/Point.cc
+225 silly gunzTarPerm extractEntry src/Point.h
+226 silly gunzTarPerm extractEntry src/VideoCaptureWrap.cc
+227 silly gunzTarPerm extractEntry src/VideoCaptureWrap.h
+228 silly gunzTarPerm extractEntry src/init.cc
+229 silly gunzTarPerm extractEntry utils/opencv_x64.pc
+230 silly gunzTarPerm extractEntry utils/opencv_x86.pc
+231 verbose write writing to /WorkSpace/psd.js-master/node_modules/opencv/package.json
+232 info preinstall opencv@3.0.0
+233 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/package.json
+234 silly prepareForInstallMany adding node-pre-gyp@0.5.31 from opencv dependencies
+235 silly prepareForInstallMany adding buffers@0.1.1 from opencv dependencies
+236 silly prepareForInstallMany adding nan@1.4.3 from opencv dependencies
+237 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/package.json
+238 silly cache add args [ 'node-pre-gyp@0.5.31', null ]
+239 verbose cache add spec node-pre-gyp@0.5.31
+240 silly cache add args [ 'buffers@0.1.1', null ]
+241 verbose cache add spec buffers@0.1.1
+242 silly cache add parsed spec { raw: 'node-pre-gyp@0.5.31',
+242 silly cache add   scope: null,
+242 silly cache add   name: 'node-pre-gyp',
+242 silly cache add   rawSpec: '0.5.31',
+242 silly cache add   spec: '0.5.31',
+242 silly cache add   type: 'version' }
+243 silly addNamed node-pre-gyp@0.5.31
+244 verbose addNamed "0.5.31" is a plain semver version for node-pre-gyp
+245 silly mapToRegistry name node-pre-gyp
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry http://registry.cnpmjs.org/
+248 silly mapToRegistry uri http://registry.cnpmjs.org/node-pre-gyp
+249 verbose addNameVersion registry:http://registry.cnpmjs.org/node-pre-gyp not in flight; fetching
+250 silly cache add parsed spec { raw: 'buffers@0.1.1',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'buffers',
+250 silly cache add   rawSpec: '0.1.1',
+250 silly cache add   spec: '0.1.1',
+250 silly cache add   type: 'version' }
+251 silly addNamed buffers@0.1.1
+252 verbose addNamed "0.1.1" is a plain semver version for buffers
+253 silly mapToRegistry name buffers
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry http://registry.cnpmjs.org/
+256 silly mapToRegistry uri http://registry.cnpmjs.org/buffers
+257 verbose addNameVersion registry:http://registry.cnpmjs.org/buffers not in flight; fetching
+258 silly cache add args [ 'nan@1.4.3', null ]
+259 verbose cache add spec nan@1.4.3
+260 silly cache add parsed spec { raw: 'nan@1.4.3',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'nan',
+260 silly cache add   rawSpec: '1.4.3',
+260 silly cache add   spec: '1.4.3',
+260 silly cache add   type: 'version' }
+261 silly addNamed nan@1.4.3
+262 verbose addNamed "1.4.3" is a plain semver version for nan
+263 silly mapToRegistry name nan
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry http://registry.cnpmjs.org/
+266 silly mapToRegistry uri http://registry.cnpmjs.org/nan
+267 verbose addNameVersion registry:http://registry.cnpmjs.org/nan not in flight; fetching
+268 verbose request uri http://registry.cnpmjs.org/buffers
+269 verbose request no auth needed
+270 info attempt registry request try #1 at 16:38:47
+271 http request GET http://registry.cnpmjs.org/buffers
+272 verbose request uri http://registry.cnpmjs.org/node-pre-gyp
+273 verbose request no auth needed
+274 info attempt registry request try #1 at 16:38:47
+275 http request GET http://registry.cnpmjs.org/node-pre-gyp
+276 verbose request uri http://registry.cnpmjs.org/nan
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 16:38:47
+279 http request GET http://registry.cnpmjs.org/nan
+280 http 200 http://registry.cnpmjs.org/buffers
+281 silly get cb [ 200,
+281 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+281 silly get     date: 'Thu, 27 Aug 2015 08:38:47 GMT',
+281 silly get     'content-type': 'application/json; charset=utf-8',
+281 silly get     'transfer-encoding': 'chunked',
+281 silly get     connection: 'keep-alive',
+281 silly get     'x-readtime': '10',
+281 silly get     'content-encoding': 'gzip' } ]
+282 verbose get saving buffers to /Users/xyz/.npm/registry.cnpmjs.org/buffers/.cache.json
+283 silly mapToRegistry name buffers
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry http://registry.cnpmjs.org/
+286 silly mapToRegistry uri http://registry.cnpmjs.org/buffers
+287 verbose addRemoteTarball http://registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz not in flight; adding
+288 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz',
+288 verbose addRemoteTarball   'b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb' ]
+289 info retry fetch attempt 1 at 16:38:48
+290 info attempt registry request try #1 at 16:38:48
+291 http fetch GET http://registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz
+292 http fetch 200 http://registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz
+293 silly fetchAndShaCheck shasum b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb
+294 verbose addTmpTarball /var/folders/ks/r21_2nxj32l8w0rxtl16758r0000gn/T/npm-65027-886d5c33/registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz not in flight; adding
+295 verbose addTmpTarball already have metadata; skipping unpack for buffers@0.1.1
+296 silly cache afterAdd buffers@0.1.1
+297 verbose afterAdd /Users/xyz/.npm/buffers/0.1.1/package/package.json not in flight; writing
+298 verbose afterAdd /Users/xyz/.npm/buffers/0.1.1/package/package.json written
+299 http 200 http://registry.cnpmjs.org/nan
+300 silly get cb [ 200,
+300 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+300 silly get     date: 'Thu, 27 Aug 2015 08:38:48 GMT',
+300 silly get     'content-type': 'application/json; charset=utf-8',
+300 silly get     'transfer-encoding': 'chunked',
+300 silly get     connection: 'keep-alive',
+300 silly get     'x-readtime': '118',
+300 silly get     'content-encoding': 'gzip' } ]
+301 verbose get saving nan to /Users/xyz/.npm/registry.cnpmjs.org/nan/.cache.json
+302 http 200 http://registry.cnpmjs.org/node-pre-gyp
+303 silly get cb [ 200,
+303 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+303 silly get     date: 'Thu, 27 Aug 2015 08:38:48 GMT',
+303 silly get     'content-type': 'application/json; charset=utf-8',
+303 silly get     'transfer-encoding': 'chunked',
+303 silly get     connection: 'keep-alive',
+303 silly get     'x-readtime': '89',
+303 silly get     'content-encoding': 'gzip' } ]
+304 verbose get saving node-pre-gyp to /Users/xyz/.npm/registry.cnpmjs.org/node-pre-gyp/.cache.json
+305 silly mapToRegistry name nan
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry http://registry.cnpmjs.org/
+308 silly mapToRegistry uri http://registry.cnpmjs.org/nan
+309 verbose addRemoteTarball http://registry.cnpmjs.org/nan/download/nan-1.4.3.tgz not in flight; adding
+310 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/nan/download/nan-1.4.3.tgz',
+310 verbose addRemoteTarball   'c56b5404698063696f597435f9163c312aea5009' ]
+311 silly mapToRegistry name node-pre-gyp
+312 silly mapToRegistry using default registry
+313 silly mapToRegistry registry http://registry.cnpmjs.org/
+314 silly mapToRegistry uri http://registry.cnpmjs.org/node-pre-gyp
+315 verbose addRemoteTarball http://registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz not in flight; adding
+316 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz',
+316 verbose addRemoteTarball   '8c91516f0009e4691413c8c3f2d8a060deb607ba' ]
+317 info retry fetch attempt 1 at 16:38:48
+318 info attempt registry request try #1 at 16:38:48
+319 http fetch GET http://registry.cnpmjs.org/nan/download/nan-1.4.3.tgz
+320 info retry fetch attempt 1 at 16:38:48
+321 info attempt registry request try #1 at 16:38:48
+322 http fetch GET http://registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz
+323 http fetch 200 http://registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz
+324 http fetch 200 http://registry.cnpmjs.org/nan/download/nan-1.4.3.tgz
+325 silly fetchAndShaCheck shasum c56b5404698063696f597435f9163c312aea5009
+326 verbose addTmpTarball /var/folders/ks/r21_2nxj32l8w0rxtl16758r0000gn/T/npm-65027-886d5c33/registry.cnpmjs.org/nan/download/nan-1.4.3.tgz not in flight; adding
+327 verbose addTmpTarball already have metadata; skipping unpack for nan@1.4.3
+328 silly cache afterAdd nan@1.4.3
+329 verbose afterAdd /Users/xyz/.npm/nan/1.4.3/package/package.json not in flight; writing
+330 verbose afterAdd /Users/xyz/.npm/nan/1.4.3/package/package.json written
+331 silly fetchAndShaCheck shasum 8c91516f0009e4691413c8c3f2d8a060deb607ba
+332 verbose addTmpTarball /var/folders/ks/r21_2nxj32l8w0rxtl16758r0000gn/T/npm-65027-886d5c33/registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz not in flight; adding
+333 verbose addTmpTarball already have metadata; skipping unpack for node-pre-gyp@0.5.31
+334 silly cache afterAdd node-pre-gyp@0.5.31
+335 verbose afterAdd /Users/xyz/.npm/node-pre-gyp/0.5.31/package/package.json not in flight; writing
+336 verbose afterAdd /Users/xyz/.npm/node-pre-gyp/0.5.31/package/package.json written
+337 verbose installMany node-pre-gyp was bundled with opencv@3.0.0, but wasn't found in dependencies. Trying devDependencies
+338 warn installMany node-pre-gyp was bundled with opencv@3.0.0, but bundled package wasn't found in unpacked tree
+339 silly install resolved [ { name: 'buffers',
+339 silly install resolved     description: 'Treat a collection of Buffers as a single contiguous partially mutable Buffer.',
+339 silly install resolved     version: '0.1.1',
+339 silly install resolved     repository:
+339 silly install resolved      { type: 'git',
+339 silly install resolved        url: 'git://github.com/substack/node-buffers.git' },
+339 silly install resolved     author:
+339 silly install resolved      { name: 'James Halliday',
+339 silly install resolved        email: 'mail@substack.net',
+339 silly install resolved        url: 'http://substack.net' },
+339 silly install resolved     main: './index',
+339 silly install resolved     scripts: { test: 'expresso' },
+339 silly install resolved     engines: { node: '>=0.2.0' },
+339 silly install resolved     _npmJsonOpts:
+339 silly install resolved      { file: '/home/substack/.npm/buffers/0.1.1/package/package.json',
+339 silly install resolved        wscript: false,
+339 silly install resolved        contributors: false,
+339 silly install resolved        serverjs: false },
+339 silly install resolved     _id: 'buffers@0.1.1',
+339 silly install resolved     dependencies: {},
+339 silly install resolved     devDependencies: {},
+339 silly install resolved     _engineSupported: true,
+339 silly install resolved     _npmVersion: '1.0.30',
+339 silly install resolved     _nodeVersion: 'v0.4.12',
+339 silly install resolved     _defaultsLoaded: true,
+339 silly install resolved     dist:
+339 silly install resolved      { tarball: 'http://registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz',
+339 silly install resolved        shasum: 'b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb',
+339 silly install resolved        size: 4195,
+339 silly install resolved        noattachment: false },
+339 silly install resolved     maintainers: [ [Object] ],
+339 silly install resolved     directories: {},
+339 silly install resolved     publish_time: 1318462413118,
+339 silly install resolved     _cnpm_publish_time: 1318462413118,
+339 silly install resolved     _shasum: 'b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb',
+339 silly install resolved     _resolved: 'http://registry.cnpmjs.org/buffers/download/buffers-0.1.1.tgz',
+339 silly install resolved     _from: 'buffers@0.1.1' },
+339 silly install resolved   { name: 'nan',
+339 silly install resolved     version: '1.4.3',
+339 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+339 silly install resolved     main: 'include_dirs.js',
+339 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+339 silly install resolved     scripts:
+339 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+339 silly install resolved        'rebuild-tests': 'node-gyp rebuild --directory test' },
+339 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+339 silly install resolved     devDependencies:
+339 silly install resolved      { bindings: '~1.2.1',
+339 silly install resolved        'node-gyp': '~1.0.2',
+339 silly install resolved        tap: '~0.4.13',
+339 silly install resolved        xtend: '~4.0.0' },
+339 silly install resolved     license: 'MIT',
+339 silly install resolved     gitHead: '75121a4413c4729170ec97c73c4826600f4a763e',
+339 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+339 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+339 silly install resolved     _id: 'nan@1.4.3',
+339 silly install resolved     _shasum: 'c56b5404698063696f597435f9163c312aea5009',
+339 silly install resolved     _from: 'nan@1.4.3',
+339 silly install resolved     _npmVersion: '2.1.6',
+339 silly install resolved     _nodeVersion: '0.10.33',
+339 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+339 silly install resolved     maintainers: [ [Object], [Object] ],
+339 silly install resolved     dist:
+339 silly install resolved      { shasum: 'c56b5404698063696f597435f9163c312aea5009',
+339 silly install resolved        size: 27017,
+339 silly install resolved        noattachment: false,
+339 silly install resolved        tarball: 'http://registry.cnpmjs.org/nan/download/nan-1.4.3.tgz' },
+339 silly install resolved     directories: {},
+339 silly install resolved     publish_time: 1421294050813,
+339 silly install resolved     _cnpm_publish_time: 1421294050813,
+339 silly install resolved     _resolved: 'http://registry.cnpmjs.org/nan/download/nan-1.4.3.tgz' },
+339 silly install resolved   { name: 'node-pre-gyp',
+339 silly install resolved     description: 'Node.js native addon binary install tool',
+339 silly install resolved     version: '0.5.31',
+339 silly install resolved     keywords: [ 'native', 'addon', 'module', 'c', 'c++', 'bindings', 'binary' ],
+339 silly install resolved     license: 'BSD',
+339 silly install resolved     author: { name: 'Dane Springmeyer', email: 'dane@mapbox.com' },
+339 silly install resolved     repository: { type: 'git', url: 'git://github.com/mapbox/node-pre-gyp.git' },
+339 silly install resolved     bin: { 'node-pre-gyp': './bin/node-pre-gyp' },
+339 silly install resolved     main: './lib/node-pre-gyp.js',
+339 silly install resolved     dependencies:
+339 silly install resolved      { nopt: '~3.0.1',
+339 silly install resolved        npmlog: '~0.1.1',
+339 silly install resolved        request: '2.x',
+339 silly install resolved        semver: '~4.1.0',
+339 silly install resolved        tar: '~1.0.1',
+339 silly install resolved        'tar-pack': '~2.0.0',
+339 silly install resolved        mkdirp: '~0.5.0',
+339 silly install resolved        rc: '~0.5.1',
+339 silly install resolved        rimraf: '~2.2.8' },
+339 silly install resolved     devDependencies: { 'aws-sdk': '*', mocha: '1.x' },
+339 silly install resolved     engineStrict: true,
+339 silly install resolved     engines: { node: '>= 0.8.0' },
+339 silly install resolved     scripts:
+339 silly install resolved      { 'update-crosswalk': 'node scripts/abi_crosswalk.js > lib/util/abi_crosswalk.json',
+339 silly install resolved        test: 'mocha -R spec --timeout 100000' },
+339 silly install resolved     gitHead: 'b6cdcfe48cca9cf7c695ec9111b2ec4e8d7517fa',
+339 silly install resolved     bugs: { url: 'https://github.com/mapbox/node-pre-gyp/issues' },
+339 silly install resolved     homepage: 'https://github.com/mapbox/node-pre-gyp',
+339 silly install resolved     bundleDependencies:
+339 silly install resolved      [ 'nopt',
+339 silly install resolved        'npmlog',
+339 silly install resolved        'request',
+339 silly install resolved        'semver',
+339 silly install resolved        'tar',
+339 silly install resolved        'tar-pack',
+339 silly install resolved        'mkdirp',
+339 silly install resolved        'rc',
+339 silly install resolved        'rimraf' ],
+339 silly install resolved     _id: 'node-pre-gyp@0.5.31',
+339 silly install resolved     _shasum: '8c91516f0009e4691413c8c3f2d8a060deb607ba',
+339 silly install resolved     _from: 'node-pre-gyp@0.5.31',
+339 silly install resolved     _npmVersion: '1.4.28',
+339 silly install resolved     _npmUser: { name: 'springmeyer', email: 'dane@mapbox.com' },
+339 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+339 silly install resolved     dist:
+339 silly install resolved      { shasum: '8c91516f0009e4691413c8c3f2d8a060deb607ba',
+339 silly install resolved        size: 910654,
+339 silly install resolved        noattachment: false,
+339 silly install resolved        tarball: 'http://registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz' },
+339 silly install resolved     directories: {},
+339 silly install resolved     publish_time: 1414698314211,
+339 silly install resolved     _cnpm_publish_time: 1414698314211,
+339 silly install resolved     _resolved: 'http://registry.cnpmjs.org/node-pre-gyp/download/node-pre-gyp-0.5.31.tgz' } ]
+340 info install buffers@0.1.1 into /WorkSpace/psd.js-master/node_modules/opencv
+341 info install nan@1.4.3 into /WorkSpace/psd.js-master/node_modules/opencv
+342 info install node-pre-gyp@0.5.31 into /WorkSpace/psd.js-master/node_modules/opencv
+343 info installOne buffers@0.1.1
+344 verbose installOne of buffers to /WorkSpace/psd.js-master/node_modules/opencv not in flight; installing
+345 info installOne nan@1.4.3
+346 verbose installOne of nan to /WorkSpace/psd.js-master/node_modules/opencv not in flight; installing
+347 info installOne node-pre-gyp@0.5.31
+348 verbose installOne of node-pre-gyp to /WorkSpace/psd.js-master/node_modules/opencv not in flight; installing
+349 verbose lock using /Users/xyz/.npm/_locks/nan-0055844e564e0593.lock for /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+350 silly install write writing nan 1.4.3 to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+351 verbose lock using /Users/xyz/.npm/_locks/buffers-831ca29011ff5666.lock for /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+352 verbose lock using /Users/xyz/.npm/_locks/node-pre-gyp-80564a0e7ce3252b.lock for /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+353 silly install write writing buffers 0.1.1 to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+354 silly install write writing node-pre-gyp 0.5.31 to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+355 verbose unbuild node_modules/opencv/node_modules/nan
+356 verbose unbuild node_modules/opencv/node_modules/buffers
+357 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan is being purged from base /WorkSpace/psd.js-master
+358 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+359 verbose unbuild node_modules/opencv/node_modules/node-pre-gyp
+360 verbose tar unpack /Users/xyz/.npm/nan/1.4.3/package.tgz
+361 verbose tar unpacking to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+362 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan is being purged
+363 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+364 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers is being purged from base /WorkSpace/psd.js-master
+365 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 verbose tar unpack /Users/xyz/.npm/buffers/0.1.1/package.tgz
+368 verbose tar unpacking to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+369 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers is being purged
+370 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+371 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp is being purged from base /WorkSpace/psd.js-master
+372 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+373 silly gunzTarPerm modes [ '755', '644' ]
+374 verbose tar unpack /Users/xyz/.npm/node-pre-gyp/0.5.31/package.tgz
+375 verbose tar unpacking to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+376 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp is being purged
+377 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+378 silly gunzTarPerm modes [ '755', '644' ]
+379 silly gunzTarPerm extractEntry package.json
+380 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+381 silly gunzTarPerm extractEntry index.js
+382 silly gunzTarPerm extractEntry package.json
+383 silly gunzTarPerm extractEntry README.md
+384 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+385 silly gunzTarPerm extractEntry include_dirs.js
+386 silly gunzTarPerm extractEntry package.json
+387 silly gunzTarPerm extractEntry README.markdown
+388 silly gunzTarPerm extractEntry README.md
+389 silly gunzTarPerm extractEntry LICENSE
+390 silly gunzTarPerm extractEntry appveyor.yml
+391 silly gunzTarPerm extractEntry LICENSE.md
+392 silly gunzTarPerm extractEntry .dntrc
+393 silly gunzTarPerm extractEntry appveyor.yml
+394 silly gunzTarPerm extractEntry bin/node-pre-gyp
+395 silly gunzTarPerm extractEntry bin/node-pre-gyp.cmd
+396 silly gunzTarPerm extractEntry examples/slice.js
+397 silly gunzTarPerm extractEntry examples/splice.js
+398 silly gunzTarPerm extractEntry test/buffers.js
+399 silly gunzTarPerm extractEntry nan.h
+400 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+401 silly gunzTarPerm extractEntry lib/build.js
+402 silly gunzTarPerm extractEntry lib/node-pre-gyp.js
+403 silly gunzTarPerm extractEntry lib/package.js
+404 silly gunzTarPerm extractEntry CHANGELOG.md
+405 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+406 silly gunzTarPerm extractEntry lib/pre-binding.js
+407 silly gunzTarPerm extractEntry lib/install.js
+408 silly gunzTarPerm extractEntry lib/rebuild.js
+409 silly gunzTarPerm extractEntry lib/reinstall.js
+410 silly gunzTarPerm extractEntry lib/reveal.js
+411 silly gunzTarPerm extractEntry lib/testbinary.js
+412 verbose write writing to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers/package.json
+413 silly gunzTarPerm extractEntry lib/testpackage.js
+414 silly gunzTarPerm extractEntry lib/info.js
+415 info preinstall buffers@0.1.1
+416 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers/package.json
+417 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers/package.json
+418 silly gunzTarPerm extractEntry lib/unpublish.js
+419 silly gunzTarPerm extractEntry lib/clean.js
+420 silly install resolved []
+421 verbose about to build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+422 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+423 silly gunzTarPerm extractEntry lib/publish.js
+424 silly gunzTarPerm extractEntry lib/util/compile.js
+425 info linkStuff buffers@0.1.1
+426 silly linkStuff buffers@0.1.1 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules as its parent node_modules
+427 silly gunzTarPerm extractEntry lib/util/s3_setup.js
+428 silly gunzTarPerm extractEntry lib/util/versioning.js
+429 verbose linkBins buffers@0.1.1
+430 verbose linkMans buffers@0.1.1
+431 verbose rebuildBundles buffers@0.1.1
+432 info install buffers@0.1.1
+433 info postinstall buffers@0.1.1
+434 silly gunzTarPerm extractEntry lib/util/abi_crosswalk.json
+435 silly gunzTarPerm extractEntry lib/util/nw-pre-gyp/package.json
+436 verbose unlock done using /Users/xyz/.npm/_locks/buffers-831ca29011ff5666.lock for /WorkSpace/psd.js-master/node_modules/opencv/node_modules/buffers
+437 silly gunzTarPerm extractEntry lib/util/nw-pre-gyp/index.html
+438 silly gunzTarPerm extractEntry CHANGELOG.md
+439 silly gunzTarPerm extractEntry node_modules/mkdirp/package.json
+440 silly gunzTarPerm extractEntry node_modules/mkdirp/.npmignore
+441 silly gunzTarPerm extractEntry node_modules/mkdirp/LICENSE
+442 silly gunzTarPerm extractEntry node_modules/mkdirp/index.js
+443 silly gunzTarPerm extractEntry node_modules/mkdirp/.travis.yml
+444 silly gunzTarPerm extractEntry node_modules/mkdirp/bin/cmd.js
+445 silly gunzTarPerm extractEntry node_modules/mkdirp/bin/usage.txt
+446 silly gunzTarPerm extractEntry node_modules/mkdirp/examples/pow.js
+447 silly gunzTarPerm extractEntry node_modules/mkdirp/readme.markdown
+448 silly gunzTarPerm extractEntry node_modules/mkdirp/test/chmod.js
+449 silly gunzTarPerm extractEntry node_modules/mkdirp/test/opts_fs_sync.js
+450 silly gunzTarPerm extractEntry node_modules/mkdirp/test/perm.js
+451 silly gunzTarPerm extractEntry node_modules/mkdirp/test/perm_sync.js
+452 silly gunzTarPerm extractEntry node_modules/mkdirp/test/opts_fs.js
+453 silly gunzTarPerm extractEntry node_modules/mkdirp/test/rel.js
+454 silly gunzTarPerm extractEntry node_modules/mkdirp/test/return.js
+455 verbose write writing to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan/package.json
+456 silly gunzTarPerm extractEntry node_modules/mkdirp/test/return_sync.js
+457 silly gunzTarPerm extractEntry node_modules/mkdirp/test/root.js
+458 info preinstall nan@1.4.3
+459 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan/package.json
+460 silly gunzTarPerm extractEntry node_modules/mkdirp/test/sync.js
+461 silly gunzTarPerm extractEntry node_modules/mkdirp/test/mkdirp.js
+462 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan/package.json
+463 silly gunzTarPerm extractEntry node_modules/mkdirp/test/umask.js
+464 silly gunzTarPerm extractEntry node_modules/mkdirp/test/clobber.js
+465 silly install resolved []
+466 verbose about to build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+467 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+468 info linkStuff nan@1.4.3
+469 silly linkStuff nan@1.4.3 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules as its parent node_modules
+470 silly gunzTarPerm extractEntry node_modules/mkdirp/test/umask_sync.js
+471 silly gunzTarPerm extractEntry node_modules/mkdirp/test/race.js
+472 verbose linkBins nan@1.4.3
+473 verbose linkMans nan@1.4.3
+474 verbose rebuildBundles nan@1.4.3
+475 info install nan@1.4.3
+476 info postinstall nan@1.4.3
+477 verbose unlock done using /Users/xyz/.npm/_locks/nan-0055844e564e0593.lock for /WorkSpace/psd.js-master/node_modules/opencv/node_modules/nan
+478 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/package.json
+479 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/LICENSE
+480 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/index.js
+481 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/.travis.yml
+482 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/example/parse.js
+483 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/readme.markdown
+484 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/dash.js
+485 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/default_bool.js
+486 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/dotted.js
+487 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/long.js
+488 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/parse.js
+489 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/parse_modified.js
+490 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/short.js
+491 silly gunzTarPerm extractEntry node_modules/mkdirp/node_modules/minimist/test/whitespace.js
+492 silly gunzTarPerm extractEntry node_modules/nopt/package.json
+493 silly gunzTarPerm extractEntry node_modules/nopt/.npmignore
+494 silly gunzTarPerm extractEntry node_modules/nopt/README.md
+495 silly gunzTarPerm extractEntry node_modules/nopt/LICENSE
+496 silly gunzTarPerm extractEntry node_modules/nopt/bin/nopt.js
+497 silly gunzTarPerm extractEntry node_modules/nopt/examples/my-program.js
+498 silly gunzTarPerm extractEntry node_modules/nopt/lib/nopt.js
+499 silly gunzTarPerm extractEntry node_modules/nopt/test/basic.js
+500 silly gunzTarPerm extractEntry node_modules/nopt/node_modules/abbrev/package.json
+501 silly gunzTarPerm extractEntry node_modules/nopt/node_modules/abbrev/README.md
+502 silly gunzTarPerm extractEntry node_modules/nopt/node_modules/abbrev/LICENSE
+503 silly gunzTarPerm extractEntry node_modules/nopt/node_modules/abbrev/abbrev.js
+504 silly gunzTarPerm extractEntry node_modules/nopt/node_modules/abbrev/test.js
+505 silly gunzTarPerm extractEntry node_modules/nopt/node_modules/abbrev/CONTRIBUTING.md
+506 silly gunzTarPerm extractEntry node_modules/npmlog/package.json
+507 silly gunzTarPerm extractEntry node_modules/npmlog/README.md
+508 silly gunzTarPerm extractEntry node_modules/npmlog/LICENSE
+509 silly gunzTarPerm extractEntry node_modules/npmlog/example.js
+510 silly gunzTarPerm extractEntry node_modules/npmlog/log.js
+511 silly gunzTarPerm extractEntry node_modules/npmlog/.npmrc
+512 silly gunzTarPerm extractEntry node_modules/npmlog/test/basic.js
+513 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/package.json
+514 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/.npmignore
+515 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/README.md
+516 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/.jshintrc
+517 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/History.md
+518 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/examples/cursorPosition.js
+519 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/examples/beep/index.js
+520 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/examples/clear/index.js
+521 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/examples/progress/index.js
+522 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/lib/ansi.js
+523 silly gunzTarPerm extractEntry node_modules/npmlog/node_modules/ansi/lib/newlines.js
+524 silly gunzTarPerm extractEntry node_modules/rc/package.json
+525 silly gunzTarPerm extractEntry node_modules/rc/.npmignore
+526 silly gunzTarPerm extractEntry node_modules/rc/README.md
+527 silly gunzTarPerm extractEntry node_modules/rc/index.js
+528 silly gunzTarPerm extractEntry node_modules/rc/browser.js
+529 silly gunzTarPerm extractEntry node_modules/rc/LICENSE.APACHE2
+530 silly gunzTarPerm extractEntry node_modules/rc/LICENSE.MIT
+531 silly gunzTarPerm extractEntry node_modules/rc/lib/utils.js
+532 silly gunzTarPerm extractEntry node_modules/rc/LICENSE.BSD
+533 silly gunzTarPerm extractEntry node_modules/rc/test/ini.js
+534 silly gunzTarPerm extractEntry node_modules/rc/test/nested-env-vars.js
+535 silly gunzTarPerm extractEntry node_modules/rc/test/test.js
+536 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/package.json
+537 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/.npmignore
+538 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/README.md
+539 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/LICENSE
+540 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/index.js
+541 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/test/index.spec.js
+542 silly gunzTarPerm extractEntry node_modules/rc/node_modules/deep-extend/test/mocha.opts
+543 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/package.json
+544 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/README.md
+545 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/LICENSE
+546 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/ini.js
+547 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/test/bar.js
+548 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/test/foo.js
+549 silly gunzTarPerm extractEntry node_modules/rc/node_modules/ini/test/fixtures/foo.ini
+550 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/package.json
+551 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/LICENSE
+552 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/index.js
+553 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/.travis.yml
+554 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/example/parse.js
+555 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/readme.markdown
+556 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/bool.js
+557 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/dash.js
+558 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/default_bool.js
+559 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/dotted.js
+560 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/long.js
+561 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/num.js
+562 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/parse.js
+563 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/parse_modified.js
+564 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/short.js
+565 silly gunzTarPerm extractEntry node_modules/rc/node_modules/minimist/test/whitespace.js
+566 silly gunzTarPerm extractEntry node_modules/rc/node_modules/strip-json-comments/package.json
+567 silly gunzTarPerm extractEntry node_modules/rc/node_modules/strip-json-comments/cli.js
+568 silly gunzTarPerm extractEntry node_modules/rc/node_modules/strip-json-comments/strip-json-comments.js
+569 silly gunzTarPerm extractEntry node_modules/rc/node_modules/strip-json-comments/readme.md
+570 silly gunzTarPerm extractEntry node_modules/request/package.json
+571 silly gunzTarPerm extractEntry node_modules/request/.npmignore
+572 silly gunzTarPerm extractEntry node_modules/request/README.md
+573 silly gunzTarPerm extractEntry node_modules/request/LICENSE
+574 silly gunzTarPerm extractEntry node_modules/request/request.js
+575 silly gunzTarPerm extractEntry node_modules/request/index.js
+576 silly gunzTarPerm extractEntry node_modules/request/.travis.yml
+577 silly gunzTarPerm extractEntry node_modules/request/CHANGELOG.md
+578 silly gunzTarPerm extractEntry node_modules/request/CONTRIBUTING.md
+579 silly gunzTarPerm extractEntry node_modules/request/lib/cookies.js
+580 silly gunzTarPerm extractEntry node_modules/request/lib/copy.js
+581 silly gunzTarPerm extractEntry node_modules/request/lib/debug.js
+582 silly gunzTarPerm extractEntry node_modules/request/lib/helpers.js
+583 silly gunzTarPerm extractEntry node_modules/request/release.sh
+584 silly gunzTarPerm extractEntry node_modules/request/.eslintrc
+585 silly gunzTarPerm extractEntry node_modules/request/disabled.appveyor.yml
+586 silly gunzTarPerm extractEntry node_modules/request/node_modules/json-stringify-safe/package.json
+587 silly gunzTarPerm extractEntry node_modules/request/node_modules/json-stringify-safe/README.md
+588 silly gunzTarPerm extractEntry node_modules/request/node_modules/json-stringify-safe/LICENSE
+589 silly gunzTarPerm extractEntry node_modules/request/node_modules/json-stringify-safe/stringify.js
+590 silly gunzTarPerm extractEntry node_modules/request/node_modules/json-stringify-safe/test.js
+591 silly gunzTarPerm extractEntry node_modules/request/node_modules/aws-sign2/package.json
+592 silly gunzTarPerm extractEntry node_modules/request/node_modules/aws-sign2/README.md
+593 silly gunzTarPerm extractEntry node_modules/request/node_modules/aws-sign2/LICENSE
+594 silly gunzTarPerm extractEntry node_modules/request/node_modules/aws-sign2/index.js
+595 silly gunzTarPerm extractEntry node_modules/request/node_modules/caseless/package.json
+596 silly gunzTarPerm extractEntry node_modules/request/node_modules/caseless/README.md
+597 silly gunzTarPerm extractEntry node_modules/request/node_modules/caseless/index.js
+598 silly gunzTarPerm extractEntry node_modules/request/node_modules/caseless/test.js
+599 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/package.json
+600 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/License
+601 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/Readme.md
+602 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/lib/combined_stream.js
+603 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/package.json
+604 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/.npmignore
+605 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/License
+606 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/Makefile
+607 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+608 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js
+609 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/common.js
+610 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/run.js
+611 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js
+612 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js
+613 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js
+614 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js
+615 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js
+616 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js
+617 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js
+618 silly gunzTarPerm extractEntry node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js
+619 silly gunzTarPerm extractEntry node_modules/request/node_modules/forever-agent/package.json
+620 silly gunzTarPerm extractEntry node_modules/request/node_modules/forever-agent/README.md
+621 silly gunzTarPerm extractEntry node_modules/request/node_modules/forever-agent/LICENSE
+622 silly gunzTarPerm extractEntry node_modules/request/node_modules/forever-agent/index.js
+623 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/package.json
+624 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/License
+625 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/Readme.md
+626 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/lib/form_data.js
+627 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/async/package.json
+628 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/async/README.md
+629 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/async/LICENSE
+630 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/async/.travis.yml
+631 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/async/component.json
+632 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/async/lib/async.js
+633 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/package.json
+634 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/README.md
+635 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/LICENSE
+636 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/mime.js
+637 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/test.js
+638 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/types/mime.types
+639 silly gunzTarPerm extractEntry node_modules/request/node_modules/form-data/node_modules/mime/types/node.types
+640 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/package.json
+641 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/.npmignore
+642 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/README.md
+643 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/LICENSE
+644 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/index.js
+645 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/example/usage.js
+646 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/.travis.yml
+647 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/Makefile
+648 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/lib/browser.js
+649 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/lib/client.js
+650 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/lib/crypto.js
+651 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/lib/index.js
+652 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/lib/server.js
+653 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/lib/utils.js
+654 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/browser.js
+655 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/client.js
+656 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/crypto.js
+657 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/index.js
+658 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/message.js
+659 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/readme.js
+660 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/server.js
+661 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/uri.js
+662 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/test/utils.js
+663 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/images/hawk.png
+664 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/images/logo.png
+665 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/package.json
+666 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/.npmignore
+667 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/README.md
+668 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/LICENSE
+669 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/index.js
+670 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/.travis.yml
+671 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/Makefile
+672 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/images/boom.png
+673 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/lib/index.js
+674 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/boom/test/index.js
+675 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+676 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/.npmignore
+677 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/README.md
+678 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/LICENSE
+679 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/index.js
+680 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/.travis.yml
+681 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/Makefile
+682 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/lib/index.js
+683 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/cryptiles/test/index.js
+684 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+685 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/.npmignore
+686 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/README.md
+687 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/LICENSE
+688 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/index.js
+689 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/.travis.yml
+690 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/Makefile
+691 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/images/hoek.png
+692 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js
+693 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js
+694 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js
+695 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js
+696 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js
+697 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js
+698 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js
+699 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+700 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/.npmignore
+701 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/README.md
+702 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/LICENSE
+703 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/index.js
+704 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/.travis.yml
+705 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/Makefile
+706 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/examples/offset.js
+707 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/examples/time.js
+708 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/lib/index.js
+709 silly gunzTarPerm extractEntry node_modules/request/node_modules/hawk/node_modules/sntp/test/index.js
+710 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/package.json
+711 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/.npmignore
+712 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/README.md
+713 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/LICENSE
+714 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/.dir-locals.el
+715 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/http_signing.md
+716 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/lib/index.js
+717 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/lib/parser.js
+718 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/lib/signer.js
+719 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/lib/util.js
+720 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/lib/verify.js
+721 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/package.json
+722 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/.npmignore
+723 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/README.md
+724 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/LICENSE
+725 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/lib/index.js
+726 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/errors.js
+727 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/index.js
+728 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/reader.js
+729 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/types.js
+730 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/lib/ber/writer.js
+731 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/reader.test.js
+732 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/writer.test.js
+733 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json
+734 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/assert-plus/README.md
+735 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/assert-plus/assert.js
+736 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/package.json
+737 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/README
+738 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/LICENSE
+739 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/ctio.js
+740 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/ctf.js
+741 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/ctype.js
+742 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/CHANGELOG
+743 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/man/man3ctype/ctio.3ctype
+744 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/README.old
+745 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tools/jsl.conf
+746 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tools/jsstyle
+747 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.float.js
+748 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.fail.js
+749 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.int.js
+750 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.psinfo.js
+751 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.struct.js
+752 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/tst.typedef.js
+753 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/psinfo.json
+754 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/struct.json
+755 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/float.json
+756 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/int.json
+757 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctf/typedef.json
+758 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/float/tst.rfloat.js
+759 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/float/tst.wfloat.js
+760 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.64.js
+761 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.rint.js
+762 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.wbounds.js
+763 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/int/tst.wint.js
+764 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.64.js
+765 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.roundtrip.js
+766 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.ruint.js
+767 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctio/uint/tst.wuint.js
+768 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.basicr.js
+769 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.basicw.js
+770 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.char.js
+771 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.endian.js
+772 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.oldwrite.js
+773 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.readSize.js
+774 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.structw.js
+775 silly gunzTarPerm extractEntry node_modules/request/node_modules/http-signature/node_modules/ctype/tst/ctype/tst.writeStruct.js
+776 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/package.json
+777 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/.npmignore
+778 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/README.md
+779 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/bl.js
+780 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/.jshintrc
+781 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/.travis.yml
+782 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/LICENSE.md
+783 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/test/basic-test.js
+784 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/test/sauce.js
+785 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/test/test.js
+786 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/package.json
+787 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/.npmignore
+788 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/README.md
+789 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/LICENSE
+790 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/duplex.js
+791 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/transform.js
+792 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/passthrough.js
+793 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/readable.js
+794 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/writable.js
+795 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_duplex.js
+796 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_passthrough.js
+797 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_readable.js
+798 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_transform.js
+799 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/lib/_stream_writable.js
+800 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/package.json
+801 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/README.md
+802 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/util.js
+803 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/float.patch
+804 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+805 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/package.json
+806 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/README.md
+807 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/LICENSE
+808 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits.js
+809 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/inherits_browser.js
+810 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/inherits/test.js
+811 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/package.json
+812 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/README.md
+813 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/index.js
+814 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/build/build.js
+815 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/isarray/component.json
+816 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/package.json
+817 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+818 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/README.md
+819 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+820 silly gunzTarPerm extractEntry node_modules/request/node_modules/bl/node_modules/readable-stream/node_modules/string_decoder/index.js
+821 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/package.json
+822 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/.npmignore
+823 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/README.md
+824 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/LICENSE
+825 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/.travis.yml
+826 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/Makefile
+827 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/SOURCES.md
+828 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/component.json
+829 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/lib/index.js
+830 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/lib/custom.json
+831 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/lib/mime.json
+832 silly gunzTarPerm extractEntry node_modules/request/node_modules/mime-types/lib/node.json
+833 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/package.json
+834 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/.npmignore
+835 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/README.md
+836 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/uuid.js
+837 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/LICENSE.md
+838 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/benchmark/README.md
+839 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/benchmark/benchmark.js
+840 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/benchmark/bench.gnu
+841 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/benchmark/bench.sh
+842 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/benchmark/benchmark-native.c
+843 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/component.json
+844 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/test/compare_v1.js
+845 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/test/test.js
+846 silly gunzTarPerm extractEntry node_modules/request/node_modules/node-uuid/test/test.html
+847 silly gunzTarPerm extractEntry node_modules/request/node_modules/oauth-sign/package.json
+848 silly gunzTarPerm extractEntry node_modules/request/node_modules/oauth-sign/README.md
+849 silly gunzTarPerm extractEntry node_modules/request/node_modules/oauth-sign/LICENSE
+850 silly gunzTarPerm extractEntry node_modules/request/node_modules/oauth-sign/index.js
+851 silly gunzTarPerm extractEntry node_modules/request/node_modules/oauth-sign/test.js
+852 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/package.json
+853 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/.npmignore
+854 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/README.md
+855 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/LICENSE
+856 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/index.js
+857 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/CONTRIBUTING.md
+858 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/.jshintrc
+859 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/Makefile
+860 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/.jshintignore
+861 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/.travis.yml
+862 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/lib/index.js
+863 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/lib/parse.js
+864 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/lib/stringify.js
+865 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/lib/utils.js
+866 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/CHANGELOG.md
+867 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/test/parse.js
+868 silly gunzTarPerm extractEntry node_modules/request/node_modules/qs/test/stringify.js
+869 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/package.json
+870 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/.npmignore
+871 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/README.md
+872 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/example.js
+873 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/stringstream.js
+874 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/.travis.yml
+875 silly gunzTarPerm extractEntry node_modules/request/node_modules/stringstream/LICENSE.txt
+876 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/package.json
+877 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/.npmignore
+878 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/README.md
+879 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/LICENSE
+880 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/test.js
+881 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/generate-pubsuffix.js
+882 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/lib/cookie.js
+883 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/lib/memstore.js
+884 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/lib/pubsuffix.js
+885 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/lib/store.js
+886 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/.travis.yml
+887 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/public-suffix.txt
+888 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/.jshintrc
+889 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/node_modules/punycode/package.json
+890 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/node_modules/punycode/README.md
+891 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/node_modules/punycode/punycode.js
+892 silly gunzTarPerm extractEntry node_modules/request/node_modules/tough-cookie/node_modules/punycode/LICENSE-MIT.txt
+893 silly gunzTarPerm extractEntry node_modules/request/node_modules/tunnel-agent/package.json
+894 silly gunzTarPerm extractEntry node_modules/request/node_modules/tunnel-agent/README.md
+895 silly gunzTarPerm extractEntry node_modules/request/node_modules/tunnel-agent/LICENSE
+896 silly gunzTarPerm extractEntry node_modules/request/node_modules/tunnel-agent/index.js
+897 silly gunzTarPerm extractEntry node_modules/request/node_modules/tunnel-agent/.jshintrc
+898 silly gunzTarPerm extractEntry node_modules/rimraf/package.json
+899 silly gunzTarPerm extractEntry node_modules/rimraf/README.md
+900 silly gunzTarPerm extractEntry node_modules/rimraf/LICENSE
+901 silly gunzTarPerm extractEntry node_modules/rimraf/bin.js
+902 silly gunzTarPerm extractEntry node_modules/rimraf/rimraf.js
+903 silly gunzTarPerm extractEntry node_modules/rimraf/AUTHORS
+904 silly gunzTarPerm extractEntry node_modules/rimraf/test/test-async.js
+905 silly gunzTarPerm extractEntry node_modules/rimraf/test/test-sync.js
+906 silly gunzTarPerm extractEntry node_modules/rimraf/test/run.sh
+907 silly gunzTarPerm extractEntry node_modules/rimraf/test/setup.sh
+908 silly gunzTarPerm extractEntry node_modules/semver/package.json
+909 silly gunzTarPerm extractEntry node_modules/semver/.npmignore
+910 silly gunzTarPerm extractEntry node_modules/semver/README.md
+911 silly gunzTarPerm extractEntry node_modules/semver/LICENSE
+912 silly gunzTarPerm extractEntry node_modules/semver/semver.browser.js
+913 silly gunzTarPerm extractEntry node_modules/semver/semver.js
+914 silly gunzTarPerm extractEntry node_modules/semver/semver.min.js
+915 silly gunzTarPerm extractEntry node_modules/semver/Makefile
+916 silly gunzTarPerm extractEntry node_modules/semver/bin/semver
+917 silly gunzTarPerm extractEntry node_modules/semver/semver.browser.js.gz
+918 silly gunzTarPerm extractEntry node_modules/semver/foot.js.txt
+919 silly gunzTarPerm extractEntry node_modules/semver/head.js.txt
+920 silly gunzTarPerm extractEntry node_modules/semver/semver.min.js.gz
+921 silly gunzTarPerm extractEntry node_modules/semver/test/amd.js
+922 silly gunzTarPerm extractEntry node_modules/semver/test/clean.js
+923 silly gunzTarPerm extractEntry node_modules/semver/test/gtr.js
+924 silly gunzTarPerm extractEntry node_modules/semver/test/index.js
+925 silly gunzTarPerm extractEntry node_modules/semver/test/ltr.js
+926 silly gunzTarPerm extractEntry node_modules/semver/test/no-module.js
+927 silly gunzTarPerm extractEntry node_modules/tar/package.json
+928 silly gunzTarPerm extractEntry node_modules/tar/.npmignore
+929 silly gunzTarPerm extractEntry node_modules/tar/README.md
+930 silly gunzTarPerm extractEntry node_modules/tar/LICENCE
+931 silly gunzTarPerm extractEntry node_modules/tar/tar.js
+932 silly gunzTarPerm extractEntry node_modules/tar/.travis.yml
+933 silly gunzTarPerm extractEntry node_modules/tar/examples/extracter.js
+934 silly gunzTarPerm extractEntry node_modules/tar/examples/packer.js
+935 silly gunzTarPerm extractEntry node_modules/tar/examples/reader.js
+936 silly gunzTarPerm extractEntry node_modules/tar/lib/buffer-entry.js
+937 silly gunzTarPerm extractEntry node_modules/tar/lib/entry-writer.js
+938 silly gunzTarPerm extractEntry node_modules/tar/lib/entry.js
+939 silly gunzTarPerm extractEntry node_modules/tar/lib/extended-header-writer.js
+940 silly gunzTarPerm extractEntry node_modules/tar/lib/extended-header.js
+941 silly gunzTarPerm extractEntry node_modules/tar/lib/extract.js
+942 silly gunzTarPerm extractEntry node_modules/tar/lib/global-header-writer.js
+943 silly gunzTarPerm extractEntry node_modules/tar/lib/header.js
+944 silly gunzTarPerm extractEntry node_modules/tar/lib/pack.js
+945 silly gunzTarPerm extractEntry node_modules/tar/lib/parse.js
+946 silly gunzTarPerm extractEntry node_modules/tar/test/00-setup-fixtures.js
+947 silly gunzTarPerm extractEntry node_modules/tar/test/extract-move.js
+948 silly gunzTarPerm extractEntry node_modules/tar/test/extract.js
+949 silly gunzTarPerm extractEntry node_modules/tar/test/header.js
+950 silly gunzTarPerm extractEntry node_modules/tar/test/pack-no-proprietary.js
+951 silly gunzTarPerm extractEntry node_modules/tar/test/pack.js
+952 silly gunzTarPerm extractEntry node_modules/tar/test/parse.js
+953 silly gunzTarPerm extractEntry node_modules/tar/test/zz-cleanup.js
+954 silly gunzTarPerm extractEntry node_modules/tar/test/fixtures.tgz
+955 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/package.json
+956 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/README.md
+957 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/LICENCE
+958 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/block-stream.js
+959 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/bench/block-stream-pause.js
+960 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/bench/block-stream.js
+961 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/bench/dropper-pause.js
+962 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/bench/dropper.js
+963 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/test/basic.js
+964 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/test/nopad-thorough.js
+965 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/test/nopad.js
+966 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/test/pause-resume.js
+967 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/test/thorough.js
+968 silly gunzTarPerm extractEntry node_modules/tar/node_modules/block-stream/test/two-stream.js
+969 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/package.json
+970 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/.npmignore
+971 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/README.md
+972 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/LICENSE
+973 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/fstream.js
+974 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/.travis.yml
+975 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/examples/filter-pipe.js
+976 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/examples/pipe.js
+977 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/examples/reader.js
+978 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/examples/symlink-write.js
+979 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/abstract.js
+980 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/dir-writer.js
+981 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/file-reader.js
+982 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/file-writer.js
+983 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/get-type.js
+984 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/dir-reader.js
+985 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/link-writer.js
+986 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/proxy-reader.js
+987 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/proxy-writer.js
+988 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/reader.js
+989 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/socket-reader.js
+990 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/collect.js
+991 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/writer.js
+992 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/lib/link-reader.js
+993 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/package.json
+994 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/.npmignore
+995 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/README.md
+996 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/LICENSE
+997 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/fs.js
+998 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/graceful-fs.js
+999 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/polyfills.js
+1000 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/max-open.js
+1001 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/open.js
+1002 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js
+1003 silly gunzTarPerm extractEntry node_modules/tar/node_modules/fstream/node_modules/graceful-fs/test/write-then-read.js
+1004 silly gunzTarPerm extractEntry node_modules/tar/node_modules/inherits/package.json
+1005 silly gunzTarPerm extractEntry node_modules/tar/node_modules/inherits/README.md
+1006 silly gunzTarPerm extractEntry node_modules/tar/node_modules/inherits/LICENSE
+1007 silly gunzTarPerm extractEntry node_modules/tar/node_modules/inherits/inherits.js
+1008 silly gunzTarPerm extractEntry node_modules/tar/node_modules/inherits/inherits_browser.js
+1009 silly gunzTarPerm extractEntry node_modules/tar/node_modules/inherits/test.js
+1010 silly gunzTarPerm extractEntry node_modules/tar-pack/package.json
+1011 silly gunzTarPerm extractEntry node_modules/tar-pack/.npmignore
+1012 silly gunzTarPerm extractEntry node_modules/tar-pack/README.md
+1013 silly gunzTarPerm extractEntry node_modules/tar-pack/index.js
+1014 silly gunzTarPerm extractEntry node_modules/tar-pack/.travis.yml
+1015 silly gunzTarPerm extractEntry node_modules/tar-pack/test/index.js
+1016 silly gunzTarPerm extractEntry node_modules/tar-pack/test/fixtures/packed-file.txt
+1017 silly gunzTarPerm extractEntry node_modules/tar-pack/test/fixtures/packed.tar
+1018 silly gunzTarPerm extractEntry node_modules/tar-pack/test/fixtures/packed.tar.gz
+1019 silly gunzTarPerm extractEntry node_modules/tar-pack/test/fixtures/to-pack/bar.txt
+1020 silly gunzTarPerm extractEntry node_modules/tar-pack/test/fixtures/to-pack/foo.txt
+1021 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/debug/package.json
+1022 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/debug/debug.js
+1023 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/debug/index.js
+1024 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/debug/Readme.md
+1025 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/debug/lib/debug.js
+1026 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/package.json
+1027 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/.npmignore
+1028 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/README.md
+1029 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/LICENSE
+1030 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/fstream.js
+1031 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/.travis.yml
+1032 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/examples/filter-pipe.js
+1033 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/examples/pipe.js
+1034 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/examples/reader.js
+1035 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/examples/symlink-write.js
+1036 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/abstract.js
+1037 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/dir-writer.js
+1038 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/file-reader.js
+1039 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/file-writer.js
+1040 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/get-type.js
+1041 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/dir-reader.js
+1042 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/link-writer.js
+1043 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/proxy-reader.js
+1044 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/proxy-writer.js
+1045 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/reader.js
+1046 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/socket-reader.js
+1047 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/collect.js
+1048 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/writer.js
+1049 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/lib/link-reader.js
+1050 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/package.json
+1051 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/.npmignore
+1052 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/README.md
+1053 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/LICENSE
+1054 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/fs.js
+1055 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/graceful-fs.js
+1056 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/polyfills.js
+1057 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test/max-open.js
+1058 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test/open.js
+1059 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test/readdir-sort.js
+1060 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/graceful-fs/test/write-then-read.js
+1061 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/inherits/package.json
+1062 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/inherits/README.md
+1063 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/inherits/LICENSE
+1064 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/inherits/inherits.js
+1065 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/inherits/inherits_browser.js
+1066 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream/node_modules/inherits/test.js
+1067 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/package.json
+1068 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/.npmignore
+1069 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/README.md
+1070 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/LICENSE
+1071 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/ignore.js
+1072 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/example/basic.js
+1073 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/.npmignore
+1074 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/00-setup.js
+1075 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/basic.js
+1076 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/common.js
+1077 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/ignore-most.js
+1078 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/nested-ignores.js
+1079 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/unignore-child.js
+1080 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/zz-cleanup.js
+1081 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/test/.ignore
+1082 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits/package.json
+1083 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits/README.md
+1084 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits/LICENSE
+1085 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits/inherits.js
+1086 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits/inherits_browser.js
+1087 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/inherits/test.js
+1088 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/package.json
+1089 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/.npmignore
+1090 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/README.md
+1091 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/LICENSE
+1092 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/minimatch.js
+1093 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test/basic.js
+1094 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test/brace-expand.js
+1095 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test/caching.js
+1096 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test/defaults.js
+1097 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/test/extglob-ending-with-state-char.js
+1098 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/package.json
+1099 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/.npmignore
+1100 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/README.md
+1101 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/LICENSE
+1102 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS
+1103 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js
+1104 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/basic.js
+1105 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/foreach.js
+1106 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js
+1107 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/package.json
+1108 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/README.md
+1109 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/LICENSE
+1110 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/bench.js
+1111 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/sigmund.js
+1112 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/fstream-ignore/node_modules/minimatch/node_modules/sigmund/test/basic.js
+1113 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/package.json
+1114 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/.npmignore
+1115 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/README.md
+1116 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/LICENSE
+1117 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/graceful-fs.js
+1118 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/test/open.js
+1119 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/graceful-fs/test/ulimit.js
+1120 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/once/package.json
+1121 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/once/README.md
+1122 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/once/LICENSE
+1123 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/once/once.js
+1124 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/once/test/once.js
+1125 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/package.json
+1126 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/.npmignore
+1127 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/README.md
+1128 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/LICENSE
+1129 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/duplex.js
+1130 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/transform.js
+1131 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/passthrough.js
+1132 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/readable.js
+1133 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/writable.js
+1134 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/lib/_stream_duplex.js
+1135 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/lib/_stream_passthrough.js
+1136 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/lib/_stream_readable.js
+1137 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/lib/_stream_transform.js
+1138 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/lib/_stream_writable.js
+1139 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/core-util-is/package.json
+1140 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/core-util-is/README.md
+1141 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/core-util-is/util.js
+1142 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/core-util-is/float.patch
+1143 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/core-util-is/lib/util.js
+1144 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits/package.json
+1145 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits/README.md
+1146 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits/LICENSE
+1147 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits/inherits.js
+1148 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits/inherits_browser.js
+1149 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/inherits/test.js
+1150 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/isarray/package.json
+1151 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/isarray/README.md
+1152 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/isarray/index.js
+1153 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/isarray/build/build.js
+1154 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/isarray/component.json
+1155 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/string_decoder/package.json
+1156 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/string_decoder/.npmignore
+1157 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/string_decoder/README.md
+1158 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/string_decoder/LICENSE
+1159 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/readable-stream/node_modules/string_decoder/index.js
+1160 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/package.json
+1161 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/.npmignore
+1162 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/README.md
+1163 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/LICENCE
+1164 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/tar.js
+1165 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/.travis.yml
+1166 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/examples/extracter.js
+1167 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/examples/packer.js
+1168 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/examples/reader.js
+1169 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/buffer-entry.js
+1170 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/entry-writer.js
+1171 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/entry.js
+1172 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/extended-header-writer.js
+1173 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/extended-header.js
+1174 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/extract.js
+1175 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/global-header-writer.js
+1176 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/header.js
+1177 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/pack.js
+1178 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/lib/parse.js
+1179 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/00-setup-fixtures.js
+1180 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/extract.js
+1181 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/header.js
+1182 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/pack-no-proprietary.js
+1183 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/pack.js
+1184 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/parse.js
+1185 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/zz-cleanup.js
+1186 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/test/fixtures.tgz
+1187 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/package.json
+1188 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/README.md
+1189 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/LICENCE
+1190 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/block-stream.js
+1191 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/bench/block-stream-pause.js
+1192 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/bench/block-stream.js
+1193 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/bench/dropper-pause.js
+1194 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/bench/dropper.js
+1195 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/test/basic.js
+1196 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/test/nopad-thorough.js
+1197 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/test/nopad.js
+1198 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/test/pause-resume.js
+1199 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/test/thorough.js
+1200 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/block-stream/test/two-stream.js
+1201 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/inherits/package.json
+1202 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/inherits/README.md
+1203 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/inherits/LICENSE
+1204 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/inherits/inherits.js
+1205 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/inherits/inherits_browser.js
+1206 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/tar/node_modules/inherits/test.js
+1207 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/uid-number/package.json
+1208 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/uid-number/README.md
+1209 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/uid-number/LICENCE
+1210 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/uid-number/get-uid-gid.js
+1211 silly gunzTarPerm extractEntry node_modules/tar-pack/node_modules/uid-number/uid-number.js
+1212 verbose write writing to /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/package.json
+1213 info preinstall node-pre-gyp@0.5.31
+1214 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/package.json
+1215 verbose readDependencies loading dependencies from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/package.json
+1216 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/mkdirp/package.json
+1217 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/nopt/package.json
+1218 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/npmlog/package.json
+1219 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/rc/package.json
+1220 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/request/package.json
+1221 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/rimraf/package.json
+1222 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/semver/package.json
+1223 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/tar/package.json
+1224 verbose targetResolver reading package data from /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/tar-pack/package.json
+1225 info package.json tar-pack@2.0.0 license should be a valid SPDX license expression
+1226 info package.json nopt@3.0.1 license should be a valid SPDX license expression
+1227 info package.json npmlog@0.1.1 license should be a valid SPDX license expression
+1228 info package.json rc@0.5.2 No license field.
+1229 info package.json semver@4.1.0 license should be a valid SPDX license expression
+1230 info package.json tar@1.0.1 license should be a valid SPDX license expression
+1231 verbose installMany nopt@3.0.1 was bundled with node-pre-gyp@0.5.31
+1232 verbose installMany npmlog@0.1.1 was bundled with node-pre-gyp@0.5.31
+1233 verbose installMany request@2.47.0 was bundled with node-pre-gyp@0.5.31
+1234 verbose installMany semver@4.1.0 was bundled with node-pre-gyp@0.5.31
+1235 verbose installMany tar@1.0.1 was bundled with node-pre-gyp@0.5.31
+1236 verbose installMany tar-pack@2.0.0 was bundled with node-pre-gyp@0.5.31
+1237 verbose installMany mkdirp@0.5.0 was bundled with node-pre-gyp@0.5.31
+1238 verbose installMany rc@0.5.2 was bundled with node-pre-gyp@0.5.31
+1239 verbose installMany rimraf@2.2.8 was bundled with node-pre-gyp@0.5.31
+1240 silly install resolved []
+1241 verbose about to build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+1242 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+1243 info linkStuff node-pre-gyp@0.5.31
+1244 silly linkStuff node-pre-gyp@0.5.31 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules as its parent node_modules
+1245 verbose linkBins node-pre-gyp@0.5.31
+1246 verbose link bins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+1246 verbose link bins   '/WorkSpace/psd.js-master/node_modules/opencv/node_modules/.bin',
+1246 verbose link bins   false ]
+1247 verbose linkMans node-pre-gyp@0.5.31
+1248 verbose rebuildBundles node-pre-gyp@0.5.31
+1249 verbose rebuildBundles [ 'mkdirp',
+1249 verbose rebuildBundles   'nopt',
+1249 verbose rebuildBundles   'npmlog',
+1249 verbose rebuildBundles   'rc',
+1249 verbose rebuildBundles   'request',
+1249 verbose rebuildBundles   'rimraf',
+1249 verbose rebuildBundles   'semver',
+1249 verbose rebuildBundles   'tar',
+1249 verbose rebuildBundles   'tar-pack' ]
+1250 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/mkdirp
+1251 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/.bin/node-pre-gyp is being purged
+1252 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/.bin/node-pre-gyp
+1253 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/mkdirp
+1254 info preinstall mkdirp@0.5.0
+1255 info linkStuff mkdirp@0.5.0
+1256 silly linkStuff mkdirp@0.5.0 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1257 verbose linkBins mkdirp@0.5.0
+1258 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+1258 verbose link bins   '/WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin',
+1258 verbose link bins   false ]
+1259 verbose linkMans mkdirp@0.5.0
+1260 verbose rebuildBundles mkdirp@0.5.0
+1261 verbose rebuildBundles [ 'minimist' ]
+1262 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/mkdirp is being purged
+1263 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/mkdirp
+1264 info install mkdirp@0.5.0
+1265 info postinstall mkdirp@0.5.0
+1266 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/nopt
+1267 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/nopt
+1268 info preinstall nopt@3.0.1
+1269 info linkStuff nopt@3.0.1
+1270 silly linkStuff nopt@3.0.1 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1271 verbose linkBins nopt@3.0.1
+1272 verbose link bins [ { nopt: './bin/nopt.js' },
+1272 verbose link bins   '/WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin',
+1272 verbose link bins   false ]
+1273 verbose linkMans nopt@3.0.1
+1274 verbose rebuildBundles nopt@3.0.1
+1275 verbose rebuildBundles [ 'abbrev' ]
+1276 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/nopt is being purged
+1277 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/nopt
+1278 info install nopt@3.0.1
+1279 info postinstall nopt@3.0.1
+1280 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/npmlog
+1281 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/npmlog
+1282 info preinstall npmlog@0.1.1
+1283 info linkStuff npmlog@0.1.1
+1284 silly linkStuff npmlog@0.1.1 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1285 verbose linkBins npmlog@0.1.1
+1286 verbose linkMans npmlog@0.1.1
+1287 verbose rebuildBundles npmlog@0.1.1
+1288 verbose rebuildBundles [ 'ansi' ]
+1289 info install npmlog@0.1.1
+1290 info postinstall npmlog@0.1.1
+1291 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/rc
+1292 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/rc
+1293 info preinstall rc@0.5.2
+1294 info linkStuff rc@0.5.2
+1295 silly linkStuff rc@0.5.2 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1296 verbose linkBins rc@0.5.2
+1297 verbose link bins [ { rc: './index.js' },
+1297 verbose link bins   '/WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin',
+1297 verbose link bins   false ]
+1298 verbose linkMans rc@0.5.2
+1299 verbose rebuildBundles rc@0.5.2
+1300 verbose rebuildBundles [ 'deep-extend', 'ini', 'minimist', 'strip-json-comments' ]
+1301 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/rc is being purged
+1302 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/rc
+1303 info install rc@0.5.2
+1304 info postinstall rc@0.5.2
+1305 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/request
+1306 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/request
+1307 info preinstall request@2.47.0
+1308 info linkStuff request@2.47.0
+1309 silly linkStuff request@2.47.0 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1310 verbose linkBins request@2.47.0
+1311 verbose linkMans request@2.47.0
+1312 verbose rebuildBundles request@2.47.0
+1313 verbose rebuildBundles [ 'aws-sign2',
+1313 verbose rebuildBundles   'bl',
+1313 verbose rebuildBundles   'caseless',
+1313 verbose rebuildBundles   'combined-stream',
+1313 verbose rebuildBundles   'forever-agent',
+1313 verbose rebuildBundles   'form-data',
+1313 verbose rebuildBundles   'hawk',
+1313 verbose rebuildBundles   'http-signature',
+1313 verbose rebuildBundles   'json-stringify-safe',
+1313 verbose rebuildBundles   'mime-types',
+1313 verbose rebuildBundles   'node-uuid',
+1313 verbose rebuildBundles   'oauth-sign',
+1313 verbose rebuildBundles   'qs',
+1313 verbose rebuildBundles   'stringstream',
+1313 verbose rebuildBundles   'tough-cookie',
+1313 verbose rebuildBundles   'tunnel-agent' ]
+1314 info install request@2.47.0
+1315 info postinstall request@2.47.0
+1316 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/rimraf
+1317 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/rimraf
+1318 info preinstall rimraf@2.2.8
+1319 info linkStuff rimraf@2.2.8
+1320 silly linkStuff rimraf@2.2.8 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1321 verbose linkBins rimraf@2.2.8
+1322 verbose link bins [ { rimraf: './bin.js' },
+1322 verbose link bins   '/WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin',
+1322 verbose link bins   false ]
+1323 verbose linkMans rimraf@2.2.8
+1324 verbose rebuildBundles rimraf@2.2.8
+1325 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/rimraf is being purged
+1326 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/rimraf
+1327 info install rimraf@2.2.8
+1328 info postinstall rimraf@2.2.8
+1329 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/semver
+1330 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/semver
+1331 info preinstall semver@4.1.0
+1332 info linkStuff semver@4.1.0
+1333 silly linkStuff semver@4.1.0 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1334 verbose linkBins semver@4.1.0
+1335 verbose link bins [ { semver: './bin/semver' },
+1335 verbose link bins   '/WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin',
+1335 verbose link bins   false ]
+1336 verbose linkMans semver@4.1.0
+1337 verbose rebuildBundles semver@4.1.0
+1338 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/semver is being purged
+1339 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/.bin/semver
+1340 info install semver@4.1.0
+1341 info postinstall semver@4.1.0
+1342 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/tar
+1343 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/tar
+1344 info preinstall tar@1.0.1
+1345 info linkStuff tar@1.0.1
+1346 silly linkStuff tar@1.0.1 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1347 verbose linkBins tar@1.0.1
+1348 verbose linkMans tar@1.0.1
+1349 verbose rebuildBundles tar@1.0.1
+1350 verbose rebuildBundles [ 'block-stream', 'fstream', 'inherits' ]
+1351 info install tar@1.0.1
+1352 info postinstall tar@1.0.1
+1353 verbose rebuild bundle /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/tar-pack
+1354 info build /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules/tar-pack
+1355 info preinstall tar-pack@2.0.0
+1356 info linkStuff tar-pack@2.0.0
+1357 silly linkStuff tar-pack@2.0.0 has /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp/node_modules as its parent node_modules
+1358 verbose linkBins tar-pack@2.0.0
+1359 verbose linkMans tar-pack@2.0.0
+1360 verbose rebuildBundles tar-pack@2.0.0
+1361 verbose rebuildBundles [ 'debug',
+1361 verbose rebuildBundles   'fstream',
+1361 verbose rebuildBundles   'fstream-ignore',
+1361 verbose rebuildBundles   'graceful-fs',
+1361 verbose rebuildBundles   'once',
+1361 verbose rebuildBundles   'readable-stream',
+1361 verbose rebuildBundles   'tar',
+1361 verbose rebuildBundles   'uid-number' ]
+1362 info install tar-pack@2.0.0
+1363 info postinstall tar-pack@2.0.0
+1364 info install node-pre-gyp@0.5.31
+1365 info postinstall node-pre-gyp@0.5.31
+1366 verbose unlock done using /Users/xyz/.npm/_locks/node-pre-gyp-80564a0e7ce3252b.lock for /WorkSpace/psd.js-master/node_modules/opencv/node_modules/node-pre-gyp
+1367 verbose about to build /WorkSpace/psd.js-master/node_modules/opencv
+1368 info build /WorkSpace/psd.js-master/node_modules/opencv
+1369 info linkStuff opencv@3.0.0
+1370 silly linkStuff opencv@3.0.0 has /WorkSpace/psd.js-master/node_modules as its parent node_modules
+1371 verbose linkBins opencv@3.0.0
+1372 verbose linkMans opencv@3.0.0
+1373 verbose rebuildBundles opencv@3.0.0
+1374 verbose rebuildBundles [ '.bin', 'buffers', 'nan', 'node-pre-gyp' ]
+1375 info install opencv@3.0.0
+1376 verbose unsafe-perm in lifecycle true
+1377 info opencv@3.0.0 Failed to exec install script
+1378 verbose unlock done using /Users/xyz/.npm/_locks/opencv-3443cc2e8773acb8.lock for /WorkSpace/psd.js-master/node_modules/opencv
+1379 verbose stack Error: opencv@3.0.0 install: `node-pre-gyp install --fallback-to-build`
+1379 verbose stack Exit status 1
+1379 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+1379 verbose stack     at EventEmitter.emit (events.js:110:17)
+1379 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+1379 verbose stack     at ChildProcess.emit (events.js:110:17)
+1379 verbose stack     at maybeClose (child_process.js:1015:16)
+1379 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+1380 verbose pkgid opencv@3.0.0
+1381 verbose cwd /WorkSpace/psd.js-master
+1382 error Darwin 14.5.0
+1383 error argv "node" "/usr/local/bin/npm" "i" "opencv"
+1384 error node v0.12.2
+1385 error npm  v2.13.3
+1386 error code ELIFECYCLE
+1387 error opencv@3.0.0 install: `node-pre-gyp install --fallback-to-build`
+1387 error Exit status 1
+1388 error Failed at the opencv@3.0.0 install script 'node-pre-gyp install --fallback-to-build'.
+1388 error This is most likely a problem with the opencv package,
+1388 error not with npm itself.
+1388 error Tell the author that this fails on your system:
+1388 error     node-pre-gyp install --fallback-to-build
+1388 error You can get their info via:
+1388 error     npm owner ls opencv
+1388 error There is likely additional logging output above.
+1389 verbose exit [ 1, true ]
+1390 verbose unbuild node_modules/opencv
+1391 info preuninstall opencv@3.0.0
+1392 info uninstall opencv@3.0.0
+1393 verbose unbuild rmStuff opencv@3.0.0 from /WorkSpace/psd.js-master/node_modules
+1394 info postuninstall opencv@3.0.0
+1395 silly gentlyRm /WorkSpace/psd.js-master/node_modules/opencv is being purged from base /WorkSpace/psd.js-master
+1396 verbose gentlyRm don't care about contents; nuking /WorkSpace/psd.js-master/node_modules/opencv
+1397 silly vacuum-fs purging /WorkSpace/psd.js-master/node_modules/opencv
+1398 silly vacuum-fs quitting because other entries in /WorkSpace/psd.js-master/node_modules

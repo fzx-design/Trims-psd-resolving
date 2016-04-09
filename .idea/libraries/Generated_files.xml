@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/lib/psd/nodes/build_preview.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/outer_glow.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_mask.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/inner_shadow.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/drop_shadow.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer/info.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/metadata.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/unicode_name.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/node.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/inner_glow.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/object_effects.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/common_state.js" />
+        <item url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_layer_info.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/test.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/test.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/nodes/build_preview.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/outer_glow.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/inner_shadow.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_mask.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/drop_shadow.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer/info.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/metadata.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/unicode_name.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/node.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/inner_glow.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/object_effects.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_info/common_state.js" />
+      <root url="file://$PROJECT_DIR$/lib/psd/layer_info/effect_layer_info.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
